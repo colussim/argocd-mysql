@@ -1,2 +1,3 @@
 saves/*
 create_argocd_app_operator-crds.sh
+create_argocd_app_operator.sh 
