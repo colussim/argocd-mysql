@@ -157,8 +157,8 @@ spec:
       labels:
         name: mysql-operator
     spec:
-      imagePullSecrets:
-      - name: oracle-registry-secret  
+     # imagePullSecrets:
+     # - name: oracle-registry-secret  
       containers:
         - name: mysql-operator
           image: container-registry.oracle.com/mysql/enterprise-operator:9.0.1-2.2.1-aarch64
