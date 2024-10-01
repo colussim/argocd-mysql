@@ -161,7 +161,7 @@ spec:
       - name: oracle-registry-secret  
       containers:
         - name: mysql-operator
-          image: container-registry.oracle.com/mysql/enterprise-operator:latest
+          image: container-registry.oracle.com/mysql/enterprise-operator:9.0.1-2.2.1-aarch64
           imagePullPolicy: IfNotPresent
           args:
             [
